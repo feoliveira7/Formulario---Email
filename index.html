@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="formGeral">
+        <form action="https://formsubmit.co/oliveirafee77@gmail.com" method="POST">
+            <label class="label1" >Nome</label>
+            <br>
+            <input class="input1" type="text" name="Nome" required>
+            <br>
+            <label class="label1">Sobrenome:</label>
+            <br>
+            <input class="input1" type="text" name="Sobrenome" required>
+            <br>
+            <label class="label1">E-mail:</label>
+            <br>
+            <input class="input1" type="email" name="E-mail" required>
+            <br>
+            <label class="label1">Telefone:</label>
+            <br>
+            <input class="input1" maxlength="15" type="text" oninput="formatarCelular(this)" name="Telefone" required>
+            <br>
+            <label class="label1">Rua:</label>
+            <br>
+            <input class="input1" type="text" name="Rua" required>
+            <br>
+            <label class="label1">Número:</label>
+            <br>
+            <input class="input1" maxlength="5"  type="text" oninput="formatarNumero(this)" name="Número" required>
+            <br>
+            <label class="label1">Bairro:</label>
+            <br>
+            <input class="input1" type="text" name="Bairro" required>
+            <br>
+            <label class="label1">Cidade:</label>
+            <br>
+            <input class="input1" type="text" name="Cidade" required>
+            <br>
+            <label class="label1">CEP:</label>
+            <br>
+            <input class="input1" maxlength="9" type="text" oninput="formatarCEP(this)" name="CEP" required>
+            <br>
+            <label class="label1">Estado:</label>
+            <br>
+            <input class="input1" type="text" name="Estado" required>
+            <br>
+            <label class="label1">Observação:</label>
+            <br>
+            <textarea class="input2" name="texto" id="" cols="33" rows="3"></textarea>
+            <br>
+            <button class="botao1" type="submit">Enviar</button>
+       </form>
+    </div>
+        
+
+ 
+    
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
